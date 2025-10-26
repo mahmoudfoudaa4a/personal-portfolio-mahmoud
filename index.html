@@ -3,8 +3,18 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Mahmoud's Portfolio – Front-End Developer skilled in HTML, CSS, and JavaScript. Building modern, responsive web apps."
+        />
+        <meta
+            name="keywords"
+            content="Mahmoud, Portfolio, Frontend Developer, HTML, CSS, JavaScript, Egypt"
+        />
+        <meta name="author" content="Mahmoud Fouda" />
         <link rel="stylesheet" href="css/index.css" />
-        <title>My Portfolio</title>
+        <link rel="icon" href="images/Logo.jpg" type="image/jpeg" />
+        <title>Mahmoud | Portfolio</title>
     </head>
     <body>
         <div class="page-wrapper">
@@ -65,42 +75,45 @@
                     </div>
                 </div>
             </section>
-                                <section class="skills">
-                                    <h3>And there is some of my skills</h3>
-                                    <ul class="skills-list">
-                                        <li class="skill-item one">
-                                            <p>HTML
-                                            <span>100%</span></p>
-                                        </li>
-                                        <li class="skill-item two">
-                                            <p>CSS
-                                            <span>90%</span></p>
-                                        </li>
-                                        <li class="skill-item three">
-                                            <p>JS
-                                            <span>65%</span></p>
-                                        </li>
-                                    </ul>
-                                </section>
+            <section class="skills">
+                <h3>And there is some of my skills</h3>
+                <ul class="skills-list">
+                    <li class="skill-item one">
+                        <p>HTML <span>100%</span></p>
+                    </li>
+                    <li class="skill-item two">
+                        <p>CSS <span>90%</span></p>
+                    </li>
+                    <li class="skill-item three">
+                        <p>JS <span>65%</span></p>
+                    </li>
+                </ul>
+            </section>
             <section class="projects" id="projects">
                 <div class="container">
                     <h2>My projects</h2>
                     <div class="projects-review">
                         <div class="proj">
-                            <img src="images/1.jpg" alt="Clipboard landing page" />
+                            <img
+                                src="images/1.jpg"
+                                alt="Clipboard landing page"
+                            />
                             <h4>
                                 Clipboard Landing Page Full Responsive | Made By
                                 : 7odaa4a
                             </h4>
                             <a
                                 href="https://mahmoudfoudaa4a.github.io/Clipboard-Landing-Page-Full-Responsive-Made-By-7odaa4a/"
-                                class="view-proj" 
+                                class="view-proj"
                                 target="_blank"
                                 >View</a
                             >
                         </div>
                         <div class="proj">
-                            <img src="images/2.jpg" alt="Social Links Profile" />
+                            <img
+                                src="images/2.jpg"
+                                alt="Social Links Profile"
+                            />
                             <h4>
                                 Fully Responsive Social Links Profile | Made by
                                 : 7odaa4a
@@ -125,7 +138,10 @@
                             >
                         </div>
                         <div class="proj">
-                            <img src="images/4.jpg" alt="Product Preview Card" />
+                            <img
+                                src="images/4.jpg"
+                                alt="Product Preview Card"
+                            />
                             <h4>
                                 Fully Responsive Product Preview Card | Made By
                                 : 7odaa4a
@@ -141,7 +157,28 @@
                 </div>
             </section>
         </div>
+       <section class="contact-form" id="contact-form">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p class="contact-text">
+      Feel free to reach out if you have a project in mind, a question, or just want to connect.
+    </p>
 
+    <form id="contact-me">
+      <div class="input-group">
+        <input type="text" id="name" placeholder="Your Name" required />
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" placeholder="Your Email" required />
+      </div>
+      <div class="input-group">
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn-send">Send Message</button>
+      <p class="form-status" id="form-status"></p>
+    </form>
+  </div>
+</section>
         <footer>
             <p>All Rights reserved Mahmoud 2025 ©</p>
             <div class="contact-links" id="contact">
