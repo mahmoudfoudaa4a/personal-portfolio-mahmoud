@@ -29,3 +29,19 @@ themeToggle.addEventListener("click", () => {
     darkMode = false;
   }
 });
+
+// ====== Contact Form ======
+const contactForm = document.getElementById("contact-form");
+const formStatus = document.getElementById("form-status");
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  formStatus.textContent = "Sending...";
+  formStatus.style.color = "#ffd700";
+
+  setTimeout(() => {
+    formStatus.textContent = "Message sent successfully!";
+    formStatus.style.color = "#00ff99";
+    contactForm.reset();
+  }, 1500);
+});
