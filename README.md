@@ -31,8 +31,4 @@ My goal is simple:
 ✅ Smooth theme toggle (Dark & Light mode)  
 ✅ Clean and organized code structure  
 ✅ Glassmorphism-inspired UI  
-✅ Interactive navigation menu  
-
----
-
-## 📁 Folder Structure
+✅ Interactive navigation menu 
