@@ -1,0 +1,101 @@
+/* ====== Dark Glass Theme ====== */
+:root {
+    --glass-bg: rgba(20, 20, 40, 0.4);
+    --glass-border: rgba(255, 255, 255, 0.15);
+    --glass-blur: 25px;
+    --accent: #9b5de5;
+    --light-text: #f8f9fa;
+    --grad-1: rgba(27, 38, 79, 0.8);
+    --grad-2: rgba(58, 12, 163, 0.7);
+    --grad-3: rgba(0, 212, 255, 0.6);
+    --gradient: linear-gradient(
+        120deg,
+        var(--grad-1),
+        var(--grad-2),
+        var(--grad-3)
+    );
+}
+
+p {
+    color: white;
+}
+
+
+body {
+    background: #1f1f1f;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(
+        120deg,
+        var(--grad-1),
+        var(--grad-2),
+        var(--grad-3)
+    );
+    backdrop-filter: blur(var(--glass-blur));
+    border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+header figure,
+header .menu-btn {
+    color: var(--light-text);
+}
+
+/* ===== Hero Section ===== */
+.hero-sec {
+    background: linear-gradient(
+        160deg,
+        var(--grad-1),
+        var(--grad-2),
+        var(--grad-3)
+    );
+    color: var(--light-text);
+    backdrop-filter: blur(var(--glass-blur));
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.hero-sec h1 {
+    color: var(--accent);
+    text-shadow: 0 0 10px rgba(155, 93, 229, 0.6);
+}
+
+.hero-sec p {
+    color: var(--light-text);
+    font-weight: 500;
+}
+
+/* ======About section ===== */
+.about figcaption{
+    color: white;
+}
+
+/* =====skills section====== */
+.skills h3 {
+    color: white;
+}
+
+/* =====Projects section===== */
+.projects h2 {
+    color: white;
+}
+.projects h4 {
+    color: var(--light-text);
+}
+/* ===== Footer ===== */
+footer {
+    background: var(--gradient);
+    backdrop-filter: blur(var(--glass-blur));
+    border-top: 1px solid var(--glass-border);
+    color: var(--light-text);
+    box-shadow: 0 -4px 32px rgba(0, 0, 0, 0.25);
+}
+
+footer .contact-links a {
+    color: gold;
+}
+
+footer .contact-links a:hover {
+    text-shadow: 0 0 8px var(--accent);
+}
